@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+*{margin:0; padding:0; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+a{color:inherit; text-decoration:none;}
+img{vertical-align:middle; border:none;}
+/* 이미지의 넓이값은 필요한 곳에서 width:100% 설정할 것, 
+여백이 없어도 이미지 하단에 1px의 공백이 발생하여 vertical-align:middle 부여*/
+ul, ol{list-style:none;}
+.cf:after .cf:before{content:''; clear:both; display:block;}
+.blind{position:absolute; width:0; height:0; overflow:hidden; text-indent:-9999px; font-size:0px; line-height:0;} /* 접근성으로 인해 필요한 요소이나 화면에서 감춰야 할 때 */
+.ellipsis{white-space:nowrap; overflow:hidden; text-overflow:ellipsis;} /* 두 줄 이상 표시되는 내용을 한 줄로 줄이고 말줄임표 생성 */
+table{border-collapse:collapse; table-layout:fixed; width:100%;}
+/* border-collapse:collapse는 테이플(표)에서 이중선 제거, 
+table-layout:fixed는 표 안의 내용이 많을 경우 overflow 되어 표의 넓이가 깨지는 것을 fixed로 고정함 
+white-space:nowrap은 자동줄바꿈이 되지 않고 칸 밖으로 내용이 overflow 되는데 그것을 방지하기 위해 위의 fixed를 사용 */
+button, input, fieldset{border:none;}
+button[type=submit], button[type=button], input[type=submit]{cursor:pointer;}
+legend, caption{display:none}
+article, aside, details, figure, figcaption, header, section, footer, hgroup, menu, nav{display:block;}
+/* 오래된 브라우저 */
+
+h1, h2, h3, h4, h5, h6, pre, textarea{font-size:100%;}
+address, em{font-style:normal;}
+strong, th{font-weight:normal;}
+
+/* 본문 바로가기 스타일 */
+.skip a{display:block; background:#000; color:#fff; text-align:center; width:1px; height:1px; overflow: hidden; position:absolute; top:-100px;}
+.skip a:focus{width:100%; height:auto; padding:10px 0; position:fixed; top:0; z-index:99999px;}

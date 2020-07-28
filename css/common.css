@@ -1,0 +1,5 @@
+@charset "utf-8";
+@import "reset.css";
+
+/* header구역, footer구역 등 기타 공통구역에 대한 스타일 */
+.row{max-width:1300px; margin:0 auto;}

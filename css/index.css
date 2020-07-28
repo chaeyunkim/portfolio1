@@ -1,0 +1,25 @@
+@charset "utf-8";
+@import "reset.css";
+@import "common.css";
+
+/* 공통구역을 제외한 메인페이지 스타일 */
+
+#header .header_box{padding:5px 15px 0;}
+/* #header .topmenu */
+#header .topmenu>button{border:1px solid #ccc; background-color:rgba(255, 255, 255, 0.6); color:#333; padding:6px 12px;}
+#header .topmenu .right{float: right;}
+#header .topmenu a{height:30px; font-size:12.25px;}
+#header .topmenu .topmenu_sns{padding:2px 10px 0; float:left;}
+#header .topmenu .topmenu_user{ padding:5px 0 0; float:left;}
+#header .topmenu .topmenu_user>a{padding:6px 12px; border:1px solid #ccc;}
+#header .topmenu .topmenu_user>a:nth-child(1), 
+#header .topmenu .topmenu_user>a:nth-child(2){width:60px; background:rgba(255, 255, 255, 0.6); color:#555;}
+#header .topmenu .topmenu_user>a:nth-child(3){width:120px; background:rgba(155, 155, 155, 0.6); color:#fff;}
+
+#header .logo_nav{position:relative;}
+#header .logo_nav .logo{position:absolute; top:20px; left:0; font-size:30px; font-weight:bold; letter-spacing:-1px;}
+#header .logo_nav .nav{position:absolute; top:30px; right:0;}
+#header .logo_nav .nav>ul>a{color:#b7480a; padding:0 20px;}
+#header .logo_nav .nav>ul>a>li{display:inline-block; font-size:14px; font-weight:bold;}
+
+#section>img{background-size: cover; width: 100%;}
