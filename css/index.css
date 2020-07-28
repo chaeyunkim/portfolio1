@@ -32,12 +32,12 @@
 
 #header .logo_nav .nav{position:absolute; bottom:0; right:0;}
 #header .logo_nav .nav>ul>li{display:inline-block;}
-#header .logo_nav .nav>ul>li>a{background:#fff; color:#b7480a; font-size:14px; font-weight:bold; padding:25px 40px; display:inline-block;}
+#header .logo_nav .nav>ul>li>a{background:#fff; color:#b7480a; font-size:14px; font-weight:bold; padding:25px 40px; display:inline-block; position: relative;}
 #header .logo_nav .nav>ul>li>a:hover{background:#b7480a; color:#fff;}
 /* #header .logo_nav .nav>ul>li>a>.depth2{display:none;} */
 /* #header .logo_nav .nav>ul>li>a:hover .depth2{display:block;} */
 .depth2{display:none;}
-.depth1>li:hover .depth2{display:block; position:absolute; bottom:0; background:#fff; color:#555;}
+.depth1>li:hover .depth2{display:block; position:absolute; top:1; background:#fff; color:#555;}
 .depth2>a:hover{color:#b7480a;}
 
 
