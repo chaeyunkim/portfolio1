@@ -4,102 +4,42 @@
 /* header구역, footer구역 등 기타 공통구역에 대한 스타일 */
 .row{max-width:1300px; margin:0 auto;}
 
-<header id="header">
-        <div class="header_box row">
-            <div class="topmenu cf">
-                <button>다른 디자인 살펴보기<span><i class="fas fa-caret-down"></i></span></button>
-                <div class="right cf">
-                    <div class="topmenu_sns">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-kaggle"></i></a>
-                    </div>
-                    <div class="topmenu_user">
-                        <a href="login.html">login</a>
-                        <a href="join.html">join</a>
-                        <a href="#">online shopping</a>
-                    </div>
-                </div>
-            </div>
-            <div class="logo_nav">
-                <div class="logo">
-                    <h1>
-                        <a href="index.html">Company<span>Name</span></a>
-                    </h1>
-                </div>
-                <div class="nav">
-                    <ul class="depth1">
-                        <li><a href="#">COMPANY</a>
-                            <ul class="depth2">
-                                <li><a href="#">CEO인사말</a></li>
-                                <li><a href="#">회사소개</a></li>
-                                <li><a href="#">회사연혁</a></li>
-                                <li><a href="#">조직도</a></li>
-                                <li><a href="#">오시는 길</a></li>
-                                <li><a href="#">시설안내</a></li>
-                                <li><a href="#">제휴사</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">BUSINESS</a>
-                            <ul class="depth2">
-                                <li><a href="#">사업분야 01</a></li>
-                                <li><a href="#">사업분야 02</a></li>
-                                <li><a href="#">사업분야 03</a></li>
-                                <li><a href="#">사업분야 04</a></li>
-                                <li><a href="#">사업분야 05</a></li>
-                                <li><a href="#">사업분야 06</a></li>
-                                <li><a href="#">사업분야 07</a></li>
-                                <li><a href="#">사업분야 08</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">PRODUCT</a>
-                            <ul class="depth2">
-                                <li><a href="#">제품소개 01</a></li>
-                                <li><a href="#">제품소개 02</a></li>
-                                <li><a href="#">제품소개 03</a></li>
-                                <li><a href="#">제품소개 04</a></li>
-                                <li><a href="#">제품소개 05</a></li>
-                                <li><a href="#">제품소개 06</a></li>
-                                <li><a href="#">제품소개 07</a></li>
-                                <li><a href="#">제품소개 08</a></li>
-                                <li><a href="#">제품소개 09</a></li>
-                                <li><a href="#">제품소개 10</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">RECRUIT</a>
-                            <ul class="depth2">
-                                <li><a href="#">채용안내</a></li>
-                                <li><a href="#">복리후생</a></li>
-                                <li><a href="#">인재상</a></li>
-                                <li><a href="#">채용공고</a></li>
-                                <li><a href="#">입사지원</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">CUSTOMER</a>
-                            <ul class="depth2">
-                                <li><a href="#">공지사항</a></li>
-                                <li><a href="#">자료실</a></li>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">자유게시판</a></li>
-                                <li><a href="#">예약일정</a></li>
-                                <li><a href="#">전국매장</a></li>
-                                <li><a href="#">질문답변</a></li>
-                                <li><a href="#">상품후기</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">etc.MENU</a>
-                            <ul class="depth2">
-                                <li><a href="#">온라인 문의</a></li>
-                                <li><a href="#">견적 문의</a></li>
-                                <li><a href="#">제휴 문의</a></li>
-                                <li><a href="#">예약 문의</a></li>
-                                <li><a href="#">방문예약</a></li>
-                                <li><a href="#">아이콘모음</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
+#header{height:auto;}
+#header .header_box{padding:5px 15px 0;}
+#header .topmenu>button{border:1px solid #ccc; background-color:rgba(255, 255, 255, 0.6); color:#333; padding:6px 12px;}
+
+.topmenu .right{float:right;}
+.topmenu a{height:30px; font-size:12.25px;}
+
+.topmenu .topmenu_sns{float:left; padding:5px 15px;}
+.topmenu .topmenu_sns>a{width:25px; height:25px; line-height:25px; background-color:#ccc; border-radius:50%; text-align:center; display: inline-block; padding-top:0.5px;}
+.topmenu .topmenu_sns i{font-size:14px; color:#fff;}
+.topmenu .topmenu_sns>a:nth-child(1):hover{background:#4d78d3; transform: rotate(35deg); transition:all 0.5s;}
+.topmenu .topmenu_sns>a:nth-child(2):hover{background:#14aef1; transform: rotate(35deg); transition:all 0.5s;}
+.topmenu .topmenu_sns>a:nth-child(3):hover{background:#f543a5; transform: rotate(35deg); transition:all 0.5s;}
+.topmenu .topmenu_sns>a:nth-child(4):hover{background:#f9b72b; transform: rotate(35deg); transition:all 0.5s;}
+
+.topmenu .topmenu_user{padding:5px 0 0; float:left;}
+.topmenu .topmenu_user>a{padding:6px 12px; border:1px solid #ccc;}
+.topmenu .topmenu_user>a:nth-child(1), 
+.topmenu .topmenu_user>a:nth-child(2){width:60px; background:rgba(255, 255, 255, 0.6); color:#555;}
+.topmenu .topmenu_user>a:nth-child(3){width:120px; background:rgba(155, 155, 155, 0.6); color:#fff;}
+
+/* #header .logo_nav{font-weight:bold;} */
+#header .logo_nav{position:relative; height:80px; margin-top:10px;}
+#header .logo_nav .logo{font-size:30px; font-weight:bold; letter-spacing:-1px;}
+#header .logo_nav .logo>h1>a{color:#b7480a; line-height:80px;}
+#header .logo_nav .logo>h1>a>span{color:#444;}
+
+.logo_nav .nav{position:absolute; top:0; right:0;}
+.logo_nav .nav>.depth1>li{display:inline-block; position:relative;}
+.logo_nav .nav>.depth1>li>a{background:#fff; color:#b7480a; font-size:14px; font-weight:bold; padding:31px 40px 30.5px; display:block; }
+.logo_nav .nav>.depth1>li:hover>a{background:#b7480a; color:#fff;}
+
+.depth2{position:absolute; top:100%; left:0; width:100%; display:none; z-index: 99999;}
+.depth1>li:hover .depth2{display:block; background:#fff; color:#555; text-align:center; }
+.depth2>li{padding:15px 10px; border-top:1px solid #eee;}
+.depth2>li>a{color:#555; font-size:12.25px; }
+.depth2>li:first-child{border:none;}
+.depth2 li:hover{background:#eee;}
+.depth2 li:hover a{color:#b7480a;}
