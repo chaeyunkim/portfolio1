@@ -36,10 +36,10 @@
 .logo_nav .nav>.depth1>li>a{background:#fff; color:#b7480a; font-size:14px; font-weight:bold; padding:31px 40px 30px; display:block; position: relative;}
 .logo_nav .nav>.depth1>li:hover>a{background:#b7480a; color:#fff;}
 
-.depth2{position:absolute; top:100%; left:0; width:100%; display:none;}
-.depth1>li:hover .depth2{display:block; background:#fff; color:#555; text-align:center;}
+.depth2{position:absolute; top:100%; left:0; width:100%; display:none; }
+.depth1>li:hover .depth2{display:block; background:#fff; color:#555; text-align:center; }
 .depth2>li{padding:15px 10px; border-top:1px solid #eee;}
-.depth2>li>a{color:#555; font-size:12.25px;}
+.depth2>li>a{color:#555; font-size:12.25px; }
 .depth2>li:first-child{border:none;}
 .depth2 li:hover{background:#eee;}
 .depth2 li:hover a{color:#b7480a;}
@@ -75,4 +75,22 @@
 .article .article_text>h3{font-size:24.5px; color: #333;}
 .article .article_text>p{font-size:14px; color: #666; padding:10px;}
 .article .article_img{margin:0 auto;}
+/* .article .article_img .overlay{background:rgba(0, 0, 0, 0.6);} */
 .article .article_img img{width:30%; padding:15px;}
+
+.lighting{background:url(../images/de01_img03.jpg) no-repeat; background-size: cover; height:400px; background-attachment: fixed; background-position: center; position: relative;}
+.lighting .overlay{background-color:rgba(0, 0, 0, 0.6); position: absolute; top: 0; left: 0; right: 0; bottom: 0;}
+.lighting .row{position: relative; height: 400px;}
+.lighting .text{text-align: center; color:#fff; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.lighting .text h3{font-size: 28px;}
+.lighting .text p{font-size: 14px; padding:10px 0 15px 0;}
+.lighting .text button{font-size: 14px; color: #fff; background:#a71a00; border-radius: 50px; padding: 10px 30px;}
+
+/* #footer */
+/* #footer .footer_outer{} */
+#footer .footer_outer .footermenu{background: #ddd; padding: 10px 0;}
+#footer .footer_outer .footermenu .footer_nav{font-size:12.25px; color: #666;}
+.footer_outer .footermenu .footer_nav>a:before{content:'|'; padding:0 10px 0 5px; font-size:10px;}
+.footer_outer .footermenu .footer_nav>a:first-child:before{display:none;}
+.footer_outer .footermenu .footer_button{float:right;}
+.footer_outer .footermenu .footer_button>a{font-size:12.25px; font-weight: bold; color:#eee; background:#888; padding:5px 12px; border-radius:3px;}
