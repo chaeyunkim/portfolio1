@@ -87,7 +87,7 @@
 .lighting .text p{font-size: 14px; padding:10px 0 15px 0;}
 .lighting .text button{font-size: 14px; color: #fff; background:#a71a00; border-radius: 50px; padding: 10px 30px;}
 
-#footer{background: #ddd; padding-bottom:50px;}
+#footer{background: #eee; padding-bottom:50px;}
 #footer .footer_outer .footermenu{padding: 10px 0;}
 #footer .footer_outer .footermenu .footer_nav{font-size:12.25px; color: #666; float: left; width: 50%; vertical-align: top;}
 .footer_outer .footermenu .footer_nav>a:before{content:'|'; padding:0 10px 0 5px; font-size:10px;}
