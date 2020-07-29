@@ -12,7 +12,7 @@
 .topmenu a{height:30px; font-size:12.25px;}
 
 .topmenu .topmenu_sns{float:left; padding:5px 15px;}
-.topmenu .topmenu_sns>a{width:25px; height:25px; line-height:25px; background-color:#ccc; border-radius:50%; text-align:center; display: inline-block;}
+.topmenu .topmenu_sns>a{width:25px; height:25px; line-height:25px; background-color:#ccc; border-radius:50%; text-align:center; display: inline-block; padding-top:0.5px;}
 .topmenu .topmenu_sns i{font-size:14px; color:#fff;}
 .topmenu .topmenu_sns>a:nth-child(1):hover{background:#4d78d3; transform: rotate(35deg); transition:all 0.5s;}
 .topmenu .topmenu_sns>a:nth-child(2):hover{background:#14aef1; transform: rotate(35deg); transition:all 0.5s;}
@@ -76,7 +76,8 @@
 .article .article_text>p{font-size:14px; color: #666; padding:10px;}
 .article .article_img{margin:0 auto;}
 /* .article .article_img .overlay{background:rgba(0, 0, 0, 0.6);} */
-.article .article_img img{width:30%; padding:15px;}
+.article .article_img img{width:100%; padding:15px;}
+.article_img>li{float: left; width: 33.33%;}
 
 .lighting{background:url(../images/de01_img03.jpg) no-repeat; background-size: cover; height:400px; background-attachment: fixed; background-position: center; position: relative;}
 .lighting .overlay{background-color:rgba(0, 0, 0, 0.6); position: absolute; top: 0; left: 0; right: 0; bottom: 0;}
