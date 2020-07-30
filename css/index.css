@@ -66,9 +66,9 @@
 .slide_outer{position:relative;}
 .slide_outer .arr{font-size:2em; color:#55584f;}
 .slide_outer .arr .left_arr{position:absolute; top:50%; left:8%; transform:translate(-50%, -8%);}
-.slide_outer .arr .left_arr:hover{color:#fff;}
+.slide_outer .arr .left_arr:hover{color:#eee;}
 .slide_outer .arr .right_arr{position:absolute; top:50%; right:8%; transform:translate(-50%, -8%);}
-.slide_outer .arr .right_arr:hover{color:#fff;}
+.slide_outer .arr .right_arr:hover{color:#eee;}
 
 /* slide 이미지 도트 */
 .slide_outer .dot_box{position:absolute; bottom:20px; width:100%; text-align:center; left:0;}
@@ -77,15 +77,17 @@
 .slide_outer .dot_box>a:active{background:rgba(255, 255, 255, 1);}
 /* .slide_outer .dot_box .blind{width: 0; height: 0; position: absolute; text-indent: -99999px; font-size: 0px; overflow: hidden; line-height: 0;} */
 
-.article{margin:50px;}
-.article .article_text{text-align:center; padding:30px;}
-.article .article_text>h3{font-size:24.5px; color:#333;}
-.article .article_text>p{font-size:14px; color:#666; padding:10px;}
-.article .article_img{margin:0 auto;}
+/* 상단 article */
+.article1{margin:50px;}
+.article1 .article1_text{text-align:center; padding:30px;}
+.article1 .article1_text>h3{font-size:24.5px; color:#333;}
+.article1 .article1_text>p{font-size:14px; color:#666; padding:10px;}
+.article1 .article1_img{margin:0 auto;}
 /* .article .article_img .overlay{background:rgba(0, 0, 0, 0.6);} */
-.article .article_img img{width:100%; padding:15px;}
-.article_img>li{float:left; width:33.33%;}
+.article1 .article1_img img{width:100%; padding:15px;}
+.article1_img>li{float:left; width:33.33%;}
 
+/* 고정 이미지 */
 .lighting{background:url(../images/de01_img03.jpg) no-repeat; background-size:cover; height:400px; background-attachment:fixed; background-position:center; position:relative;}
 .lighting .overlay{background-color:rgba(0, 0, 0, 0.6); position:absolute; top:0; left:0; right:0; bottom:0;}
 .lighting .row{position:relative; height:400px;}
@@ -94,6 +96,26 @@
 .lighting .text p{font-size:14px; padding:10px 0 15px 0;}
 .lighting .text button{font-size: 14px; color: #fff; background:#a71a00; border-radius: 50px; padding: 10px 30px;}
 
+/* 하단 article */
+.article2{position: relative; padding:50px 0; background:#f4f4f4;}
+.article2_box{margin:20px 0;}
+.article2 .article2_text{text-align:left;}
+.article2 .article2_text>h4{font-size:17.5px; color:#333; margin:10px 0;}
+.article2 .article2_text>p{font-size:14px; color:#666; letter-spacing:-0.5px;}
+.article2 .article2_text>em{font-size:12.5px; line-height: 10px; color:#aaa;}
+
+/* 하단 article 왼쪽 */
+.article2 .article2_left{float:left; width:49.5%;}
+/* .article2 .article2_left .article2_box{} */
+.article2_box .article2_img{width:100px; height:100px; background:#ddd; display: inline-block; float: left; position: relative; border-radius:5px; text-align: center;}
+.article2_box .article2_img>i{ font-size:30px; color: #55584f; line-height: 100px;}
+.article2_box .article2_text{float: left; width: 80%; padding-left: 10px;}
+
+/* 하단 article 오른쪽 */
+.article2 .article2_right{float: right; width:49.5%;}
+/* .article2 .article2_right .article2_box */
+/* .article2_box .article2_img */
+/* .article2_box .article2_text */
 
 /* footer */
 #footer{background: #eee;}
