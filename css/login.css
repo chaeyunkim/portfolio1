@@ -2,7 +2,7 @@
 @import "reset.css";
 @import "common.css";
 
-#header{height:auto;}
+#header{height:auto; border-bottom:1px solid #f543a5;}
 #header .header_box{padding:5px 15px 0;}
 #header .topmenu>button{border:1px solid #ccc; background-color:rgba(255, 255, 255, 0.6); color:#333; padding:6px 12px;}
 
@@ -41,6 +41,59 @@
 .depth2>li:first-child{border:none;}
 .depth2 li:hover{background:#eee;}
 .depth2 li:hover a{color:#b7480a;}
+
+/* 로그인 페이지 */
+#login_page{width:100%;}
+/* #login_page .login_row+h2 .user_box .member+.nonmember 
+.member .member_login
+.nonmember .nonmember_check
+*/
+.login_row{width: 50%; margin:0 auto;}
+/* 로그인 페이지 제목 */
+.login_row>h2{font-size:2.0em; color:#111; font-weight:100; padding:30px 0;}
+
+/* 로그인+비회원 전체 박스 */
+.user_box{text-align:center; border:1px solid #ccc; padding:10px 50px;}
+.user_box h3, .user_box p{text-align: left;}
+.user_box h3{padding:20px 0 10px 0;}
+.user_box p{font-size:14px; padding-bottom: 20px;}
+.user_box input{border:1px solid #ccc;}
+
+/* 로그인 */
+.member{border-bottom:1px dotted #ccc;}
+.member>h3{font-size:2.5em; color:#222; font-weight:100;}
+.member>p{color:#333;}
+/* .member_login .member_form{margin:0 auto;} */
+.idpw_box{display: inline-block;}
+.member_form .idpw_box>input{padding:3px 150px 3px 10px; height:40px; line-height:40px; display:block; margin:0 auto;}
+.member_form>fieldset>button{color:#ccc; background:#222; height:80px; line-height:80px; padding:0 30px 0 30px; vertical-align: top;}
+/* 비회원 */
+.nonmember>h3{font-size:1.250em; color:#222;}
+.nonmember>p{color:#888;}
+.nonmember_form .nonmember_order>input{padding:1px 150px 3px 10px; height:40px; margin:0 auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer */
 #footer{background: #eee;}
