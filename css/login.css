@@ -1,0 +1,89 @@
+@charset "utf-8";
+@import "reset.css";
+@import "common.css";
+
+#header{height:auto;}
+#header .header_box{padding:5px 15px 0;}
+#header .topmenu>button{border:1px solid #ccc; background-color:rgba(255, 255, 255, 0.6); color:#333; padding:6px 12px;}
+
+.topmenu .right{float:right;}
+.topmenu a{height:30px; font-size:12.25px;}
+
+.topmenu .topmenu_sns{float:left; padding:5px 15px;}
+.topmenu .topmenu_sns>a{width:25px; height:25px; line-height:25px; background-color:#ccc; border-radius:50%; text-align:center; display: inline-block; padding-top:0.5px;}
+.topmenu .topmenu_sns i{font-size:14px; color:#fff;}
+.topmenu .topmenu_sns>a:nth-child(1):hover{background:#4d78d3; transform: rotate(35deg); transition:all 0.5s;}
+.topmenu .topmenu_sns>a:nth-child(2):hover{background:#14aef1; transform: rotate(35deg); transition:all 0.5s;}
+.topmenu .topmenu_sns>a:nth-child(3):hover{background:#f543a5; transform: rotate(35deg); transition:all 0.5s;}
+.topmenu .topmenu_sns>a:nth-child(4):hover{background:#f9b72b; transform: rotate(35deg); transition:all 0.5s;}
+
+.topmenu .topmenu_user{padding:5px 0 0; float:left;}
+.topmenu .topmenu_user>a{padding:6px 12px; border:1px solid #ccc;}
+.topmenu .topmenu_user>a:nth-child(1), 
+.topmenu .topmenu_user>a:nth-child(2){width:60px; background:rgba(255, 255, 255, 0.6); color:#555;}
+.topmenu .topmenu_user>a:nth-child(3){width:120px; background:rgba(155, 155, 155, 0.6); color:#fff;}
+
+/* #header .logo_nav{font-weight:bold;} */
+#header .logo_nav{position:relative; height:80px; margin-top:10px;}
+#header .logo_nav .logo{font-size:30px; font-weight:bold; letter-spacing:-1px;}
+#header .logo_nav .logo>h1>a{color:#b7480a; line-height:80px;}
+#header .logo_nav .logo>h1>a>span{color:#444;}
+
+.logo_nav .nav{position:absolute; top:0; right:0;}
+.logo_nav .nav>.depth1>li{display:inline-block; position:relative;}
+.logo_nav .nav>.depth1>li>a{background:#fff; color:#b7480a; font-size:14px; font-weight:bold; padding:31px 40px 30.5px; display:block; }
+.logo_nav .nav>.depth1>li:hover>a{background:#b7480a; color:#fff;}
+
+.depth2{position:absolute; top:100%; left:0; width:100%; display:none; z-index: 99999;}
+.depth1>li:hover .depth2{display:block; background:#fff; color:#555; text-align:center; }
+.depth2>li{padding:15px 10px; border-top:1px solid #eee;}
+.depth2>li>a{color:#555; font-size:12.25px; }
+.depth2>li:first-child{border:none;}
+.depth2 li:hover{background:#eee;}
+.depth2 li:hover a{color:#b7480a;}
+
+/* footer */
+#footer{background: #eee;}
+
+/* footer 상단 메뉴*/
+.footermenu_box{width:100%; background:#ddd;}
+.footermenu_box .footermenu{padding:10px 0; width:100%; height:40px;}
+.footermenu_box .footermenu .footer_nav{font-size:12.25px; color:#666; float:left; width:50%; vertical-align:top;}
+.footermenu_box .footermenu .footer_nav>a:before{content:'|'; padding:0 10px 0 5px; font-size:10px;}
+.footermenu_box .footermenu .footer_nav>a:first-child:before{display:none;}
+.footermenu_box .footermenu .footer_button{float:right;}
+.footermenu_box .footermenu .footer_button>a{font-size:12.25px; font-weight:bold; color:#eee; background:#888; padding:5px 12px; border-radius:3px;}
+
+/* footer 하단 메뉴*/
+.footerinfo_box{background:#eee; width:100%;}
+.footer_info{padding:30px 0;}
+
+/* footer 하단 메뉴 왼쪽 */
+.footer_left{float:left; width:70%; font-weight:bold;}
+.footer_left .company_info h2{font-size:28px; color:#333; padding:0 0 10px ;}
+.footer_left .depth3>li{font-size:12.25px; color:#333; padding:3px 0;}
+.footer_left .depth3>li:last-child{padding:6px 0;}
+.footer_left .depth3>li:last-child span{color:#eee; background:#666; padding:5px 10px; border-radius:3px;}
+.footer_left .etc{font-size:0.750em; font-weight:100; margin-top:40px; line-height:120%; color:#bbb; padding-bottom:30px;}
+/* {font-size:10px; color:#bbb; padding:30px 0; letter-spacing:0.5px;} */
+
+/* footer 하단 메뉴 오른쪽 */
+#footer .footer_right{float:right; width:30%; padding-left:40px;}
+#footer .footer_right h3{font-size:14px; padding:0 0 10px 0;}
+
+/* footer 오른쪽 퀵메뉴*/
+.footer_right .quick{margin-bottom:30px;}
+.footer_right .quick>h3{font-size:14px;}
+
+/* 퀵메뉴 검색창 */
+.footer_right .quick>button{border:1px solid #ccc; background-color:rgba(255, 255, 255, 0.6); color:#333; padding:6px 12px; text-align: left; width: 100%;}
+.footer_right .quick>button>i{float:right;}
+
+.footer_right .quick .quick_text{display:block; color:#666; font-size:12.25px; font-weight:normal; padding:5px 0;}
+.footer_right .quick .quick_text>a{display:inline-block; padding:3px 0;}
+.quick .quick_text>a>i{padding-right:5px;}
+
+
+/* footer 오른쪽 사이트메뉴 */
+.footer_right .family .family_img{width:100%;}
+.footer_right .family .family_img>a>img{width:18%; border:1px solid #ccc; margin-bottom:5px;}
